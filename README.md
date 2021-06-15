@@ -3,6 +3,11 @@ A pure html and css library for dark mode in your website.
 
 ---
 
+# Features
+It has a smooth setting and also it changes via system settings aswell. Small, but useful.
+
+---
+
 # Usage
 To use this library follow the steps below:
 
