@@ -1,14 +1,12 @@
 @media screen and (prefers-color-scheme: light) {
-body {  
-  background-color: white;
-  color: black;  
-}
-  
-  .dark-mode {
-  background-color: black;
-  color: white;
-}
-
+	body {
+		background-color: white;
+		color: #202124;
+	}
+	.dark-mode {
+		background-color: #202124;
+		color: white;
+	}
 }
 
 .smooth-transition {
@@ -16,12 +14,12 @@ body {
 }
 
 @media screen and (prefers-color-scheme: dark) {
-.dark-mode {
-  background-color: white;
-  color: black;
-}
-body {  
-  background-color: black;
-  color: white;  
-}
+	.dark-mode {
+		background-color: white;
+		color: #202124;
+	}
+	body {
+		background-color: #202124;
+		color: white;
+	}
 }
