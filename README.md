@@ -25,13 +25,13 @@ Once your done with the imports your code looks something like this:
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="https://kk-designs.github.io/dark-mode/dark-mode.css">
-<script src="https://kk-designs.github.io/dark-mode/dark-mode.js"></script>
-</head>
-<body>
-<!--Body content yet to be added-->
-</body>
+   <head>
+      <link rel="stylesheet" href="https://kk-designs.github.io/dark-mode/dark-mode.css">
+      <script src="https://kk-designs.github.io/dark-mode/dark-mode.js"></script>
+   </head>
+   <body>
+      <!--Body content yet to be added-->
+   </body>
 </html>
 ```
 Now its time to add the last element; The button.
@@ -49,15 +49,15 @@ Want to customize it? We'll we have some options for you. More options coming in
 
 The only option we have right now is smooth change. It makes a trasistion so it doesn't look so abrupt. See the code below have to to get this:
 ```html
-<button onclick='changeToDarkMode({"smooth_transition": true});'>Toggle dark mode</button>
+<button onclick='changeToDarkMode({ 'smooth_transition': true });'>Toggle dark mode</button>
 ```
 
 ---
 
 # Demo
-Use this demo to see how it works.
-[DEMO](https://jsfiddle.net/xnupLwv8/ "Demo").
+Use this demo to see how it works. \
+[DEMO](https://jsfiddle.net/NotBacon/8huy1sgk/ "Demo")
 
 ---
 
-# Thanks for using this library!
+## Thanks for using this library!
