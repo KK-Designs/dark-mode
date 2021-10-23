@@ -61,3 +61,6 @@ Use this demo to see how it works. \
 ---
 
 ## Thanks for using this library!
+
+
+[![](backToTop.png?raw=true "Back to top")](#dark-mode)
