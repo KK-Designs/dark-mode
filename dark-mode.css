@@ -1,10 +1,10 @@
 @media screen and (prefers-color-scheme: light) {
 	body {
 		background-color: white;
-		color: #202124;
+		color: #0d1117;
 	}
 	.dark-mode {
-		background-color: #202124;
+		background-color: #0d1117;
 		color: white;
 	}
 }
@@ -16,10 +16,10 @@
 @media screen and (prefers-color-scheme: dark) {
 	.dark-mode {
 		background-color: white;
-		color: #202124;
+		color: #0d1117;
 	}
 	body {
-		background-color: #202124;
+		background-color: #0d1117;
 		color: white;
 	}
 }
