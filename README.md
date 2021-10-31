@@ -30,7 +30,7 @@ Once your done with the imports your code looks something like this:
       <script src="https://kk-designs.github.io/dark-mode/dark-mode.js"></script>
    </head>
    <body>
-      <!--Body content yet to be added-->
+      <!-- Body content yet to be added -->
    </body>
 </html>
 ```
@@ -60,7 +60,8 @@ Use this demo to see how it works. \
 
 ---
 
-## Thanks for using this library!
+### Thanks for using this library!
 
+---
 
 [![](backToTop.png?raw=true "Back to top")](#dark-mode)
