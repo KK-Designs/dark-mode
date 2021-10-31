@@ -49,7 +49,7 @@ Want to customize it? We'll we have some options for you. More options coming in
 
 The only option we have right now is smooth change. It makes a trasistion so it doesn't look so abrupt. See the code below have to to get this:
 ```html
-<button onclick='changeToDarkMode({ 'smooth_transition': true });'>Toggle dark mode</button>
+<button onclick='changeToDarkMode({ "smooth_transition": true });'>Toggle dark mode</button>
 ```
 
 ---
