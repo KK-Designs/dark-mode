@@ -56,6 +56,7 @@ The only option we have right now is smooth change. It makes a trasistion so it 
 
 # Demo
 Use this demo to see how it works. \
+\
 [DEMO](https://jsfiddle.net/NotBacon/8huy1sgk/ "Demo")
 
 ---
