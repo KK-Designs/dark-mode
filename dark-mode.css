@@ -1,25 +1,23 @@
 @media screen and (prefers-color-scheme: light) {
-	body {
-		background-color: white;
-		color: #0d1117;
-	}
-	.dark-mode {
-		background-color: #0d1117;
-		color: white;
-	}
+     body {
+         background-color: white;
+         color: #0d1117;
+    }
+     .dark-mode {
+         background-color: #0d1117;
+         color: white;
+    }
 }
-
-.smooth-transition {
-	transition: background-color 300ms;
+ .smooth-transition {
+     transition: background-color 300ms;
 }
-
-@media screen and (prefers-color-scheme: dark) {
-	.dark-mode {
-		background-color: white;
-		color: #0d1117;
-	}
-	body {
-		background-color: #0d1117;
-		color: white;
-	}
+ @media screen and (prefers-color-scheme: dark) {
+     .dark-mode {
+         background-color: white;
+         color: #0d1117;
+    }
+     body {
+         background-color: #0d1117;
+         color: white;
+    }
 }
