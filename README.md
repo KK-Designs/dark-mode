@@ -65,4 +65,4 @@ Use this demo to see how it works. \
 
 ---
 
-[![](backToTop.png?raw=true "Back to top")](#dark-mode)
+[![](backToTop.png?raw=true "Back to top")](#readme)
