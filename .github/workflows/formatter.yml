@@ -20,7 +20,8 @@ on:
   pull_request:
     branches: [master]
     # Remove the line above to run when pull-requesting to master
-
+  schedule:
+    - cron: '20 23 * * 3'
 ###############
 # Set the Job #
 ###############
