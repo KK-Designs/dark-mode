@@ -19,7 +19,6 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
-    # Remove the line above to run when pull-requesting to master
   schedule:
     - cron: '20 23 * * 3'
 ###############
@@ -44,7 +43,11 @@ jobs:
         with:
           # Full git history is needed to get a proper list of changed files within `auto-formatter`
           fetch-depth: 0
-
+      - run: |
+          for commit in $(git rev-list ${{ github.event.before}}..${{ github.sha}}); do
+              git checkout $commit
+              echo "run test"
+          done
       ################################
       # Run Auto-formatter against code base #
       ################################
