@@ -1,0 +1,25 @@
+# .github/workflows/check_spelling.yml
+name: Check Spelling
+on:
+  pull_request:
+    paths:
+    - '**.js'
+    - '**.vue'
+    - '**.txt'
+    - '**.html'
+    - '**.md'
+jobs:
+  spelling:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+        fetch-depth: 0
+    - run: |
+          for commit in $(git rev-list ${{ github.event.before}}..${{ github.sha}}); do
+              git checkout $commit
+              echo "run test"
+          done
+    - name: Check Spelling
+      uses: UnicornGlobal/spellcheck-github-actions@master
